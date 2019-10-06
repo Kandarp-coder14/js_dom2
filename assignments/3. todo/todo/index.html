@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>todo</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0dd1095222.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="heading">
-		<h1 class="todos">todos</h1>
-		<input type="text" name="type here">
-		<!-- <ul>
-			<li></li>
-		</ul>
-		 -->
-	</div>
-	<footer>
-		<p>Double-click to edit a todo</p>
-		<p>Created by petehunt</p>
-		<p>Part of TodoMVC</p>
-		
-	</footer>
-	<script type="text/javascript" src="main.js"></script>
+    <div class="">
+        <h1 class="todo">todos</h1>
+       <div class="input_container">
+        <input type="text" placeholder="What needs to be done?">
+        <i class="fas"></i>
+       </div> 
+        <ul class="list">
+        </ul>
+        <div class="foot">
+            <div class="footer1">
+                <span class="item_count"> 0 </span><span class="item">item's left</span></span>
+                <span class="all">All</span>
+                <span class="active">Active</span>
+                <span class="completed">Completed</span>
+                <span class="clear_completed">Clear completed</span>
+            </div>
+            <div class="footer1"></div>
+            <div class="footer2"></div>
+            <div class="footer3"></div>
+         </div>
+        <footer class="footer">
+            <p>Double-click to edit a todo</p>
+            <p>Created by <span class="footer-content">Kandarp Lalit</span></p>
+            <p>Refactored by <span class="footer-content">Ankit Sinha</span></p> 
+            <p>Part of <span class="footer-content">TodoMVC</span></p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

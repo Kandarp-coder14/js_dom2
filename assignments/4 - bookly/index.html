@@ -11,21 +11,20 @@
 	    	<div id="page-banner">
 	    		<h1 class="title">Bookly</h1>
           <p>Best Books For Hackers</p>
-          <form id="search-books">
-            <input type="text" placeholder="Search books..." />
-          </form>
+        
+            <input class="searchInput" type="text" placeholder="Search books..." />
 	    	</div>
 	    </header>
 	    <div id="book-list">
 	    	<h2 class="title">Books to Read</h2>
-	    	<ul>
+	    	<ul id="addBook">
 	    	</ul>
 	    </div>
 	    <form id="add-book">
         <input type="checkbox" id="hide" />
         <label for="hide">Hide all books</label>
-	    	<input type="text" placeholder="Add a book..." />
-	    	<button>Add</button>
+	    	<input class='bookInput' type="text" placeholder="Add a book..." required />
+	    	<button class="addButton">Add</button>
 	    </form>
 		</div>
     <script src="app.js"></script>		

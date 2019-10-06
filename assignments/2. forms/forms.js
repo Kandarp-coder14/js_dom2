@@ -20,3 +20,4 @@ function handleSubmit() {
         newBox.innerHTML=(`you are ${name} your email is ${email} and your password is ${password}`)
     }
 }
+
